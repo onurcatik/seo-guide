@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Örneğin: src/css/custom.css dosyanıza ekleyin */
+.hero .hero--primary {
+  background-color: #007bff; /* İstediğiniz mavi tonunu belirleyin */
+}
+

@@ -5,31 +5,34 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/search-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Search Engine Optimization (SEO) is the practice of optimizing websites to improve their visibility on search engines. It involves keyword optimization, content quality, site speed, mobile compatibility, and backlinks. When implemented correctly, SEO leads to increased organic traffic and higher rankings. 🚀
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/engine-motor-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Search Engine Optimization (SEO) is the process of enhancing a website’s visibility in search engine results through strategic techniques such as keyword research, content optimization, technical improvements, and link building. Effective SEO increases organic traffic, improves user experience, and boosts online presence. 🚀
+
+
+
+
+
+
       </>
     ),
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/doc-svgrepo-com.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       **SEO and Programming Languages** work together to enhance website visibility and performance. SEO optimizes content and structure, while coding ensures fast loading, clean architecture, and mobile responsiveness. Technologies like HTML, JavaScript, and Python improve search rankings, creating high-performing, search-friendly websites. 🚀
       </>
     ),
   },

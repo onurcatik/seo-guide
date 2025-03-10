@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docu Website',
-  tagline: 'Bring your website to another level',
+  title: 'SEO Guide',
+  tagline: 'Search Engine Optimization ',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -77,10 +77,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'SEO Guide',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.ico',
         },
         items: [
           {
@@ -88,6 +88,42 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'fundamentalsSidebar',
+            position: 'left',
+            label: 'SEO Fundamentals',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'keywordsSidebar',
+            position: 'left',
+            label: 'Key Words',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'linkbuildingSidebar',
+            position: 'left',
+            label: 'Link Building Tactics',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'technicalSidebar',
+            position: 'left',
+            label: 'Technical SEO',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'seooptimizeSidebar',
+            position: 'left',
+            label: 'SEO Optimize',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'linkbuildingSidebar',
+            position: 'left',
+            label: 'Link Building Strategies',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
