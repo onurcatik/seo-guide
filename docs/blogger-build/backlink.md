@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # What makes a backlink "Good"?
 
-## Introduction
+
 
 Backlinks remain a critical ranking signal for search engines such as Google. However, not all backlinks are created equal. A high‐quality backlink from a reputable source like The New York Times carries far more weight than a generic link from a low-value forum. This tutorial outlines the five key attributes that define a good backlink and explains the anatomy of a hyperlink in an SEO context.
 

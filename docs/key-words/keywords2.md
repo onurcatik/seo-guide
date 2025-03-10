@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Key Words Research - 2
 
-## Introduction
+
 
 Keyword research is a critical component of search engine optimization (SEO) that involves identifying and evaluating search terms that users enter into search engines. For technical professionals, especially fullstack developers working in digital domains, understanding and applying systematic keyword research methods can improve the organic reach of web applications or content-driven websites. This tutorial presents a two-step process:
 

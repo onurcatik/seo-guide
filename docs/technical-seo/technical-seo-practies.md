@@ -1,8 +1,10 @@
+---
+sidebar_position:  1
+---
+
+# Technical Seo Practies
 
 
-
-
-## Introduction
 
 Technical SEO involves optimizing a website’s underlying infrastructure so that search engine crawlers can efficiently access, interpret, and index its content. Even if your content is excellent, poor technical optimization may result in lower rankings or even prevent pages from being indexed. This tutorial outlines best practices to maintain a healthy website, covering site structure, page speed, and proactive error detection through regular audits.
 

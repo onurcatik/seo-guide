@@ -91,21 +91,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'fundamentalsSidebar',
-            position: 'left',
-            label: 'SEO Fundamentals',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'keywordsSidebar',
             position: 'left',
             label: 'Key Words',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'linkbuildingSidebar',
-            position: 'left',
-            label: 'Link Building Tactics',
           },
           {
             type: 'docSidebar',
@@ -121,13 +109,16 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'linkbuildingSidebar',
+            sidebarId: 'bloggerSidebar',
             position: 'left',
-            label: 'Link Building Strategies',
+            label: 'Guide',
           },
+
+        
+  
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/onurcatik',
             label: 'GitHub',
             position: 'right',
           },
@@ -135,48 +126,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,

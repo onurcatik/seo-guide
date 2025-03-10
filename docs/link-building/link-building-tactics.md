@@ -1,8 +1,10 @@
+---
+sidebar_position:  1
+---
+
+# Link Building Tactics
 
 
-
-
-## Introduction
 
 Link building is the process of developing and nurturing relationships with other site owners to acquire hyperlinks that direct users back to your content. In modern digital strategies, backlinks remain a key ranking factor in search engine optimization (SEO). This tutorial outlines a three-stage process—prospecting, vetting, and email outreach—and critically examines several commonly used tactics. While these techniques can be effective, it is important to note that some practices are oversimplified in introductory discussions. This tutorial addresses potential inaccuracies and emphasizes methodological rigor.
 

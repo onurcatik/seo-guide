@@ -1,8 +1,10 @@
+---
+sidebar_position: 1
+---
+
+# Technical SEO
 
 
-
-
-## Introduction to Technical SEO
 
 Technical SEO is the practice of optimizing a website’s infrastructure so that search engine crawlers can efficiently access, understand, and index its content. Without these technical optimizations, even high-quality content may fail to rank or be discovered by search engines. The focus of this tutorial is on foundational concepts that allow webmasters to perform routine maintenance and troubleshoot indexing issues.
 
