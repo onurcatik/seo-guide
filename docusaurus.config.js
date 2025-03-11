@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docu Website',
-  tagline: 'Bring your website to another level',
+  title: 'SEO Guide',
+  tagline: 'Search Engine Optimization ',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -77,10 +77,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'SEO Guide',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.ico',
         },
         items: [
           {
@@ -89,9 +89,36 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'keywordsSidebar',
+            position: 'left',
+            label: 'Key Words',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'technicalSidebar',
+            position: 'left',
+            label: 'Technical SEO',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'seooptimizeSidebar',
+            position: 'left',
+            label: 'SEO Optimize',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'bloggerSidebar',
+            position: 'left',
+            label: 'Guide',
+          },
+
+        
+  
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/onurcatik',
             label: 'GitHub',
             position: 'right',
           },
@@ -99,48 +126,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,
