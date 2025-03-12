@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Key Words Research - 2
+# Key Words Research-2
 
 
 
